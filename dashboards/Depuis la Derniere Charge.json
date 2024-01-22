@@ -1,7 +1,7 @@
 {
   "__inputs": [
     {
-      "name": "DS_TESLAMATE",
+      "name": "TeslaMate",
       "label": "TeslaMate",
       "description": "",
       "type": "datasource",
@@ -208,7 +208,7 @@
         {
           "datasource": {
             "type": "postgres",
-            "uid": "${DS_TESLAMATE}"
+            "uid": "${TeslaMate}"
           },
           "format": "table",
           "group": [],
@@ -245,7 +245,7 @@
     {
       "datasource": {
         "type": "postgres",
-        "uid": "${DS_TESLAMATE}"
+        "uid": "${TeslaMate}"
       },
       "description": "",
       "fieldConfig": {
@@ -343,7 +343,7 @@
     {
       "datasource": {
         "type": "postgres",
-        "uid": "${DS_TESLAMATE}"
+        "uid": "${TeslaMate}"
       },
       "description": "",
       "fieldConfig": {
@@ -440,7 +440,7 @@
     {
       "datasource": {
         "type": "postgres",
-        "uid": "${DS_TESLAMATE}"
+        "uid": "${TeslaMate}"
       },
       "description": "",
       "fieldConfig": {
@@ -539,7 +539,7 @@
     {
       "datasource": {
         "type": "postgres",
-        "uid": "${DS_TESLAMATE}"
+        "uid": "${TeslaMate}"
       },
       "description": "",
       "fieldConfig": {
@@ -636,7 +636,7 @@
     {
       "datasource": {
         "type": "postgres",
-        "uid": "${DS_TESLAMATE}"
+        "uid": "${TeslaMate}"
       },
       "description": "",
       "fieldConfig": {
@@ -734,7 +734,7 @@
     {
       "datasource": {
         "type": "postgres",
-        "uid": "${DS_TESLAMATE}"
+        "uid": "${TeslaMate}"
       },
       "fieldConfig": {
         "defaults": {
@@ -845,7 +845,7 @@
       "showLayerChanger": true,
       "targets": [
         {
-          "datasource": "${DS_TESLAMATE}",
+          "datasource": "${TeslaMate}",
           "format": "time_series",
           "group": [],
           "metricColumn": "none",
@@ -874,7 +874,7 @@
           ]
         },
         {
-          "datasource": "${DS_TESLAMATE}",
+          "datasource": "${TeslaMate}",
           "format": "time_series",
           "group": [],
           "hide": false,
@@ -909,7 +909,7 @@
       "type": "pr0ps-trackmap-panel"
     },
     {
-      "datasource": "${DS_TESLAMATE}",
+      "datasource": "${TeslaMate}",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -1084,7 +1084,7 @@
     {
       "datasource": {
         "type": "postgres",
-        "uid": "${DS_TESLAMATE}"
+        "uid": "${TeslaMate}"
       },
       "fieldConfig": {
         "defaults": {
@@ -1200,7 +1200,7 @@
     {
       "datasource": {
         "type": "postgres",
-        "uid": "${DS_TESLAMATE}"
+        "uid": "${TeslaMate}"
       },
       "fieldConfig": {
         "defaults": {
@@ -1326,7 +1326,7 @@
     {
       "datasource": {
         "type": "postgres",
-        "uid": "${DS_TESLAMATE}"
+        "uid": "${TeslaMate}"
       },
       "fieldConfig": {
         "defaults": {
@@ -1422,7 +1422,7 @@
     {
       "datasource": {
         "type": "postgres",
-        "uid": "${DS_TESLAMATE}"
+        "uid": "${TeslaMate}"
       },
       "fieldConfig": {
         "defaults": {
@@ -2440,7 +2440,7 @@
         {
           "datasource": {
             "type": "postgres",
-            "uid": "${DS_TESLAMATE}"
+            "uid": "${TeslaMate}"
           },
           "format": "table",
           "group": [],
@@ -3117,7 +3117,7 @@
           "alias": "",
           "datasource": {
             "type": "postgres",
-            "uid": "${DS_TESLAMATE}"
+            "uid": "${TeslaMate}"
           },
           "format": "table",
           "group": [],
@@ -3693,7 +3693,7 @@
         {
           "datasource": {
             "type": "postgres",
-            "uid": "${DS_TESLAMATE}"
+            "uid": "${TeslaMate}"
           },
           "format": "table",
           "group": [],
@@ -3806,7 +3806,7 @@
         "current": {},
         "datasource": {
           "type": "postgres",
-          "uid": "${DS_TESLAMATE}"
+          "uid": "${TeslaMate}"
         },
         "definition": "SELECT name AS __text, id AS __value FROM cars;",
         "hide": 2,
@@ -3829,7 +3829,7 @@
         "current": {},
         "datasource": {
           "type": "postgres",
-          "uid": "${DS_TESLAMATE}"
+          "uid": "${TeslaMate}"
         },
         "definition": "select unit_of_temperature from settings limit 1;",
         "hide": 2,
@@ -3852,7 +3852,7 @@
         "current": {},
         "datasource": {
           "type": "postgres",
-          "uid": "${DS_TESLAMATE}"
+          "uid": "${TeslaMate}"
         },
         "definition": "select unit_of_length from settings limit 1;",
         "hide": 2,
@@ -3875,7 +3875,7 @@
         "current": {},
         "datasource": {
           "type": "postgres",
-          "uid": "${DS_TESLAMATE}"
+          "uid": "${TeslaMate}"
         },
         "definition": "select case when unit_of_length = 'km' then 'm' when unit_of_length = 'mi' then 'ft' end  from settings limit 1;",
         "hide": 2,
@@ -3898,7 +3898,7 @@
         "current": {},
         "datasource": {
           "type": "postgres",
-          "uid": "${DS_TESLAMATE}"
+          "uid": "${TeslaMate}"
         },
         "definition": "select preferred_range from settings limit 1;",
         "hide": 2,
@@ -3921,7 +3921,7 @@
         "current": {},
         "datasource": {
           "type": "postgres",
-          "uid": "${DS_TESLAMATE}"
+          "uid": "${TeslaMate}"
         },
         "definition": "select base_url from settings limit 1;",
         "hide": 2,
@@ -3944,7 +3944,7 @@
         "current": {},
         "datasource": {
           "type": "postgres",
-          "uid": "${DS_TESLAMATE}"
+          "uid": "${TeslaMate}"
         },
         "definition": "with last_drives as (select start_date from charging_processes order by start_date desc limit 1)\nselect extract(epoch from min(start_date)) * 1000 from last_drives;",
         "hide": 2,
@@ -3966,7 +3966,7 @@
         "current": {},
         "datasource": {
           "type": "postgres",
-          "uid": "${DS_TESLAMATE}"
+          "uid": "${TeslaMate}"
         },
         "definition": "with last_drives as (select start_date from charging_processes order by start_date desc limit 5)\nselect extract(epoch from min(start_date)) * 1000 from last_drives;",
         "hide": 2,

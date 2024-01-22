@@ -46,7 +46,7 @@
     {
       "collapsed": false,
       "datasource": {
-        "uid": "${DS_TESLAMATE}"
+        "uid": "${TeslaMate}"
       },
       "gridPos": {
         "h": 1,

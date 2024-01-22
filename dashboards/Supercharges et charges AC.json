@@ -1,7 +1,7 @@
 {
   "__inputs": [
     {
-      "name": "DS_TESLAMATE",
+      "name": "TeslaMate",
       "label": "TeslaMate",
       "description": "",
       "type": "datasource",
@@ -170,7 +170,7 @@
         {
           "datasource": {
             "type": "postgres",
-            "uid": "${DS_TESLAMATE}"
+            "uid": "${TeslaMate}"
           },
           "format": "table",
           "group": [],
@@ -207,7 +207,7 @@
     {
       "datasource": {
         "type": "postgres",
-        "uid": "${DS_TESLAMATE}"
+        "uid": "${TeslaMate}"
       },
       "description": "Utilisée en charge DC",
       "fieldConfig": {
@@ -311,7 +311,7 @@
     {
       "datasource": {
         "type": "postgres",
-        "uid": "${DS_TESLAMATE}"
+        "uid": "${TeslaMate}"
       },
       "fieldConfig": {
         "defaults": {
@@ -502,7 +502,7 @@
     {
       "datasource": {
         "type": "postgres",
-        "uid": "${DS_TESLAMATE}"
+        "uid": "${TeslaMate}"
       },
       "description": "",
       "fieldConfig": {
@@ -606,7 +606,7 @@
     {
       "datasource": {
         "type": "postgres",
-        "uid": "${DS_TESLAMATE}"
+        "uid": "${TeslaMate}"
       },
       "description": "",
       "fieldConfig": {
@@ -710,7 +710,7 @@
     {
       "datasource": {
         "type": "postgres",
-        "uid": "${DS_TESLAMATE}"
+        "uid": "${TeslaMate}"
       },
       "description": "Uniquement les charges DC",
       "fieldConfig": {
@@ -1617,7 +1617,7 @@
     {
       "datasource": {
         "type": "postgres",
-        "uid": "${DS_TESLAMATE}"
+        "uid": "${TeslaMate}"
       },
       "description": "",
       "fieldConfig": {
@@ -1721,7 +1721,7 @@
     {
       "datasource": {
         "type": "postgres",
-        "uid": "${DS_TESLAMATE}"
+        "uid": "${TeslaMate}"
       },
       "fieldConfig": {
         "defaults": {
@@ -1912,7 +1912,7 @@
     {
       "datasource": {
         "type": "postgres",
-        "uid": "${DS_TESLAMATE}"
+        "uid": "${TeslaMate}"
       },
       "description": "",
       "fieldConfig": {
@@ -2701,7 +2701,7 @@
         {
           "datasource": {
             "type": "postgres",
-            "uid": "${DS_TESLAMATE}"
+            "uid": "${TeslaMate}"
           },
           "format": "table",
           "group": [],
@@ -2743,7 +2743,7 @@
     {
       "datasource": {
         "type": "postgres",
-        "uid": "${DS_TESLAMATE}"
+        "uid": "${TeslaMate}"
       },
       "fieldConfig": {
         "defaults": {
@@ -2839,7 +2839,7 @@
     {
       "datasource": {
         "type": "postgres",
-        "uid": "${DS_TESLAMATE}"
+        "uid": "${TeslaMate}"
       },
       "fieldConfig": {
         "defaults": {
@@ -2935,7 +2935,7 @@
     {
       "datasource": {
         "type": "postgres",
-        "uid": "${DS_TESLAMATE}"
+        "uid": "${TeslaMate}"
       },
       "fieldConfig": {
         "defaults": {
@@ -3031,7 +3031,7 @@
     {
       "datasource": {
         "type": "postgres",
-        "uid": "${DS_TESLAMATE}"
+        "uid": "${TeslaMate}"
       },
       "description": "",
       "fieldConfig": {
@@ -3135,7 +3135,7 @@
     {
       "datasource": {
         "type": "postgres",
-        "uid": "${DS_TESLAMATE}"
+        "uid": "${TeslaMate}"
       },
       "fieldConfig": {
         "defaults": {
@@ -3242,7 +3242,7 @@
         "current": {},
         "datasource": {
           "type": "postgres",
-          "uid": "${DS_TESLAMATE}"
+          "uid": "${TeslaMate}"
         },
         "definition": "SELECT name AS __text, id AS __value FROM cars;",
         "hide": 2,
@@ -3265,7 +3265,7 @@
         "current": {},
         "datasource": {
           "type": "postgres",
-          "uid": "${DS_TESLAMATE}"
+          "uid": "${TeslaMate}"
         },
         "definition": "select unit_of_length from settings limit 1;",
         "hide": 2,
@@ -3288,7 +3288,7 @@
         "current": {},
         "datasource": {
           "type": "postgres",
-          "uid": "${DS_TESLAMATE}"
+          "uid": "${TeslaMate}"
         },
         "definition": "select unit_of_temperature from settings limit 1;",
         "hide": 2,
@@ -3311,7 +3311,7 @@
         "current": {},
         "datasource": {
           "type": "postgres",
-          "uid": "${DS_TESLAMATE}"
+          "uid": "${TeslaMate}"
         },
         "definition": "select preferred_range from settings limit 1;",
         "hide": 2,
@@ -3333,7 +3333,7 @@
         "current": {},
         "datasource": {
           "type": "postgres",
-          "uid": "${DS_TESLAMATE}"
+          "uid": "${TeslaMate}"
         },
         "definition": "select base_url from settings limit 1;",
         "hide": 2,
@@ -3356,7 +3356,7 @@
         "current": {},
         "datasource": {
           "type": "postgres",
-          "uid": "${DS_TESLAMATE}"
+          "uid": "${TeslaMate}"
         },
         "definition": "SELECT name AS __text, id AS __value FROM geofences ORDER BY name COLLATE \"C\" ASC;",
         "hide": 0,
