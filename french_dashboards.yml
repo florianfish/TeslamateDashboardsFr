@@ -10,4 +10,4 @@ providers:
   editable: true
   updateIntervalSeconds: 86400
   options:
-    path: /FrenchTeslamateCustomDashboards
+    path: /TeslamateDashboardsFr
