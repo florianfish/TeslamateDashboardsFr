@@ -1,4 +1,31 @@
 {
+  "__elements": {},
+  "__requires": [
+    {
+      "type": "grafana",
+      "id": "grafana",
+      "name": "Grafana",
+      "version": "10.1.2"
+    },
+    {
+      "type": "datasource",
+      "id": "postgres",
+      "name": "PostgreSQL",
+      "version": "1.0.0"
+    },
+    {
+      "type": "panel",
+      "id": "stat",
+      "name": "Stat",
+      "version": ""
+    },
+    {
+      "type": "panel",
+      "id": "table",
+      "name": "Table",
+      "version": ""
+    }
+  ],
   "annotations": {
     "list": [
       {
@@ -25,7 +52,7 @@
   "editable": true,
   "fiscalYearStartMonth": 0,
   "graphTooltip": 0,
-  "id": 138,
+  "id": null,
   "links": [
     {
       "$$hashKey": "object:255",
@@ -79,7 +106,7 @@
     {
       "datasource": {
         "type": "postgres",
-        "uid": "PC98BA2F4D77E1A42"
+        "uid": "${DS_TESLAMATE}"
       },
       "description": "",
       "fieldConfig": {
@@ -143,7 +170,7 @@
         {
           "datasource": {
             "type": "postgres",
-            "uid": "PC98BA2F4D77E1A42"
+            "uid": "${DS_TESLAMATE}"
           },
           "format": "time_series",
           "group": [],
@@ -180,7 +207,7 @@
     {
       "datasource": {
         "type": "postgres",
-        "uid": "PC98BA2F4D77E1A42"
+        "uid": "${DS_TESLAMATE}"
       },
       "fieldConfig": {
         "defaults": {
@@ -243,7 +270,7 @@
         {
           "datasource": {
             "type": "postgres",
-            "uid": "PC98BA2F4D77E1A42"
+            "uid": "${DS_TESLAMATE}"
           },
           "format": "time_series",
           "group": [],
@@ -280,7 +307,7 @@
     {
       "datasource": {
         "type": "postgres",
-        "uid": "PC98BA2F4D77E1A42"
+        "uid": "${DS_TESLAMATE}"
       },
       "fieldConfig": {
         "defaults": {
@@ -344,7 +371,7 @@
         {
           "datasource": {
             "type": "postgres",
-            "uid": "PC98BA2F4D77E1A42"
+            "uid": "${DS_TESLAMATE}"
           },
           "format": "time_series",
           "group": [],
@@ -381,7 +408,7 @@
     {
       "datasource": {
         "type": "postgres",
-        "uid": "PC98BA2F4D77E1A42"
+        "uid": "${DS_TESLAMATE}"
       },
       "fieldConfig": {
         "defaults": {
@@ -444,7 +471,7 @@
         {
           "datasource": {
             "type": "postgres",
-            "uid": "PC98BA2F4D77E1A42"
+            "uid": "${DS_TESLAMATE}"
           },
           "format": "time_series",
           "group": [],
@@ -481,7 +508,7 @@
     {
       "datasource": {
         "type": "postgres",
-        "uid": "PC98BA2F4D77E1A42"
+        "uid": "${DS_TESLAMATE}"
       },
       "fieldConfig": {
         "defaults": {
@@ -544,7 +571,7 @@
         {
           "datasource": {
             "type": "postgres",
-            "uid": "PC98BA2F4D77E1A42"
+            "uid": "${DS_TESLAMATE}"
           },
           "format": "time_series",
           "group": [],
@@ -581,7 +608,7 @@
     {
       "datasource": {
         "type": "postgres",
-        "uid": "PC98BA2F4D77E1A42"
+        "uid": "${DS_TESLAMATE}"
       },
       "fieldConfig": {
         "defaults": {
@@ -644,7 +671,7 @@
         {
           "datasource": {
             "type": "postgres",
-            "uid": "PC98BA2F4D77E1A42"
+            "uid": "${DS_TESLAMATE}"
           },
           "format": "time_series",
           "group": [],
@@ -681,7 +708,7 @@
     {
       "datasource": {
         "type": "postgres",
-        "uid": "PC98BA2F4D77E1A42"
+        "uid": "${DS_TESLAMATE}"
       },
       "fieldConfig": {
         "defaults": {
@@ -1538,7 +1565,7 @@
         {
           "datasource": {
             "type": "postgres",
-            "uid": "PC98BA2F4D77E1A42"
+            "uid": "${DS_TESLAMATE}"
           },
           "format": "table",
           "group": [],
@@ -1581,7 +1608,7 @@
     {
       "datasource": {
         "type": "postgres",
-        "uid": "PC98BA2F4D77E1A42"
+        "uid": "${DS_TESLAMATE}"
       },
       "fieldConfig": {
         "defaults": {
@@ -1603,8 +1630,7 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green",
-                "value": null
+                "color": "green"
               },
               {
                 "color": "red",
@@ -1639,12 +1665,12 @@
         },
         "textMode": "auto"
       },
-      "pluginVersion": "10.1.2",
+      "pluginVersion": "8.3.4",
       "targets": [
         {
           "datasource": {
             "type": "postgres",
-            "uid": "PC98BA2F4D77E1A42"
+            "uid": "${DS_TESLAMATE}"
           },
           "format": "time_series",
           "group": [],
@@ -1681,7 +1707,7 @@
     {
       "datasource": {
         "type": "postgres",
-        "uid": "PC98BA2F4D77E1A42"
+        "uid": "${DS_TESLAMATE}"
       },
       "fieldConfig": {
         "defaults": {
@@ -1703,8 +1729,7 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green",
-                "value": null
+                "color": "green"
               },
               {
                 "color": "red",
@@ -1739,12 +1764,12 @@
         },
         "textMode": "auto"
       },
-      "pluginVersion": "10.1.2",
+      "pluginVersion": "8.3.4",
       "targets": [
         {
           "datasource": {
             "type": "postgres",
-            "uid": "PC98BA2F4D77E1A42"
+            "uid": "${DS_TESLAMATE}"
           },
           "format": "time_series",
           "group": [],
@@ -1781,7 +1806,7 @@
     {
       "datasource": {
         "type": "postgres",
-        "uid": "PC98BA2F4D77E1A42"
+        "uid": "${DS_TESLAMATE}"
       },
       "fieldConfig": {
         "defaults": {
@@ -1803,8 +1828,7 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green",
-                "value": null
+                "color": "green"
               },
               {
                 "color": "red",
@@ -1839,12 +1863,12 @@
         },
         "textMode": "auto"
       },
-      "pluginVersion": "10.1.2",
+      "pluginVersion": "8.3.4",
       "targets": [
         {
           "datasource": {
             "type": "postgres",
-            "uid": "PC98BA2F4D77E1A42"
+            "uid": "${DS_TESLAMATE}"
           },
           "format": "time_series",
           "group": [],
@@ -1881,7 +1905,7 @@
     {
       "datasource": {
         "type": "postgres",
-        "uid": "PC98BA2F4D77E1A42"
+        "uid": "${DS_TESLAMATE}"
       },
       "description": "Somme de la quantité d'énergie ajoutée dans la batterie divisée par la somme de la quantité d'énergie utilisée à la prise.",
       "fieldConfig": {
@@ -1904,8 +1928,7 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green",
-                "value": null
+                "color": "green"
               },
               {
                 "color": "red",
@@ -1940,12 +1963,12 @@
         },
         "textMode": "auto"
       },
-      "pluginVersion": "10.1.2",
+      "pluginVersion": "8.3.4",
       "targets": [
         {
           "datasource": {
             "type": "postgres",
-            "uid": "PC98BA2F4D77E1A42"
+            "uid": "${DS_TESLAMATE}"
           },
           "format": "table",
           "group": [],
@@ -1982,7 +2005,7 @@
     {
       "datasource": {
         "type": "postgres",
-        "uid": "PC98BA2F4D77E1A42"
+        "uid": "${DS_TESLAMATE}"
       },
       "fieldConfig": {
         "defaults": {
@@ -2005,8 +2028,7 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green",
-                "value": null
+                "color": "green"
               },
               {
                 "color": "red",
@@ -2041,12 +2063,12 @@
         },
         "textMode": "auto"
       },
-      "pluginVersion": "10.1.2",
+      "pluginVersion": "8.3.4",
       "targets": [
         {
           "datasource": {
             "type": "postgres",
-            "uid": "PC98BA2F4D77E1A42"
+            "uid": "${DS_TESLAMATE}"
           },
           "format": "time_series",
           "group": [],
@@ -2090,14 +2112,10 @@
   "templating": {
     "list": [
       {
-        "current": {
-          "selected": false,
-          "text": "All",
-          "value": "$__all"
-        },
+        "current": {},
         "datasource": {
           "type": "postgres",
-          "uid": "PC98BA2F4D77E1A42"
+          "uid": "${DS_TESLAMATE}"
         },
         "definition": "SELECT name AS __text, id AS __value FROM cars;",
         "hide": 2,
@@ -2117,14 +2135,10 @@
         "useTags": false
       },
       {
-        "current": {
-          "selected": false,
-          "text": "km",
-          "value": "km"
-        },
+        "current": {},
         "datasource": {
           "type": "postgres",
-          "uid": "PC98BA2F4D77E1A42"
+          "uid": "${DS_TESLAMATE}"
         },
         "definition": "select unit_of_length from settings limit 1;",
         "hide": 2,
@@ -2144,14 +2158,10 @@
         "useTags": false
       },
       {
-        "current": {
-          "selected": false,
-          "text": "C",
-          "value": "C"
-        },
+        "current": {},
         "datasource": {
           "type": "postgres",
-          "uid": "PC98BA2F4D77E1A42"
+          "uid": "${DS_TESLAMATE}"
         },
         "definition": "select unit_of_temperature from settings limit 1;",
         "hide": 2,
@@ -2171,14 +2181,10 @@
         "useTags": false
       },
       {
-        "current": {
-          "selected": false,
-          "text": "rated",
-          "value": "rated"
-        },
+        "current": {},
         "datasource": {
           "type": "postgres",
-          "uid": "PC98BA2F4D77E1A42"
+          "uid": "${DS_TESLAMATE}"
         },
         "definition": "select preferred_range from settings limit 1;",
         "hide": 2,
@@ -2197,14 +2203,10 @@
         "useTags": false
       },
       {
-        "current": {
-          "selected": false,
-          "text": "https://teslamate.poissonmail.fr",
-          "value": "https://teslamate.poissonmail.fr"
-        },
+        "current": {},
         "datasource": {
           "type": "postgres",
-          "uid": "PC98BA2F4D77E1A42"
+          "uid": "${DS_TESLAMATE}"
         },
         "definition": "select base_url from settings limit 1;",
         "hide": 2,
@@ -2224,14 +2226,10 @@
       },
       {
         "allValue": "-1",
-        "current": {
-          "selected": false,
-          "text": "All",
-          "value": "$__all"
-        },
+        "current": {},
         "datasource": {
           "type": "postgres",
-          "uid": "PC98BA2F4D77E1A42"
+          "uid": "${DS_TESLAMATE}"
         },
         "definition": "SELECT name AS __text, id AS __value FROM geofences ORDER BY name COLLATE \"C\" ASC;",
         "hide": 0,
@@ -2284,6 +2282,6 @@
   "timezone": "",
   "title": "Charges",
   "uid": "hWRmGrGMz",
-  "version": 1,
+  "version": 2,
   "weekStart": ""
 }
